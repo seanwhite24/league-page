@@ -329,7 +329,7 @@
 <div class="awards">
 	<h3>{year} Awards</h3>
 
-	<img src="/banner.png" class="banner" alt="The Champion's Cup" />
+	<img src="/banner.png" class="banner" alt="The Kate'smom" />
 
 	<div id="podium">
 		<img src="/podium.png" class="podiumImage" alt="podium" />
@@ -368,7 +368,7 @@
 	{#if toilet}
 		<div class="toiletParent">
 			
-			<img src="/toilet-banner.png" class="toilet-banner" alt="The Toilet Bowl" />
+			<img src="/toilet-banner.png" class="toilet-banner" alt="Sacko" />
 
 			<div class="toiletBowl">
 				<img src="{getAvatarFromTeamManagers(leagueTeamManagers, toilet, year)}" class="toiletWinner clickable" on:click={() => gotoManager({year, leagueTeamManagers, rosterID: toilet})} alt="toilet bowl winner" />
