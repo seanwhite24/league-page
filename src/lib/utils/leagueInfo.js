@@ -2,17 +2,14 @@
 export const leagueID = "982746154335027200"; // your league ID
 export const leagueName = "League of Scholar-Champions"; // your league name
 export const dues = 100; // (optional) used in template constitution page
-export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
+export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>The League of Scholar-Champions was founded by Titans QB Ryan Tannehill in Week 10 of the 2019 NFL Season, when he hit WR Adam Humphries over the middle for a 23-yard touchdown to defeat the Kansas City Chiefs, 35-32. This inspired a young generation of degenerates to blend their love of dudes, financial recklessness, alhlcol, suffering, and The Shield to elevate their brotherhood to a League.</p>
+  <p>Soon after, Jordan Stone was officially on the clock for the 2020 draft as the eternal grapple for the Kate'smom Trophy (physical trophy TBD) and to avoid the Sacko began. Some teams calculated strategic moves to position themselves for supremacy over their peers. Others spent second-round picks on Clyde Edwards-Helaire, Miles Sanders, and Kenyan Drake. And lo, the unending journey began.</p>
+  <p>Each year, only one manager will taste the glory of the League of Scholar-Championship, joining their players in the pantheon of league history. Many others will brave the long offseason as their dreams are deferred.</p>
 `;
 
 /*   STEP 3   */
