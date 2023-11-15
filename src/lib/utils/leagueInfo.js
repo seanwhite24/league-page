@@ -26,8 +26,8 @@ export const managers = [
       "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Sean White",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Shorewood, WI", // (optional)
-      "bio": "Lorem ipsum...",
+      "location": "Milwaukee, WI", // (optional)
+      "bio": "Sean's fantasy football journey began at the 2008 Scholastic Book Fair at Oriole Lane Elementary School, when he was allowed to pick one non-book item. Sean gravitated towards the 2008 NFL.com Fantasy Football Preview. In the following months, Sean crafted 'fantasy' rosters of players in notebooks, still with no knowledge of the game we love. This prepared Sean to take over his uncle's work-league team in 2013, where Matt Asiata and Denard Robinson clinched Sean's inaugural title. 10 years later, Sean is still chasing his second title. Also, lives in WI 2 cats 3 rabbits went to WashU wealth advisor and all that.",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 2013, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -40,7 +40,7 @@ export const managers = [
       "favoritePlayer": 936, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "talent does not matter in fantasy football. Opportunity is far more important. I would start a local sickly toddler that is guaranteed 20 carries and 6 targets over any running back tainted by Bill Belichick.",
+      "philosophy": "Talent does not matter in fantasy football. Opportunity is far more important. I would start a local sickly toddler that is guaranteed 20 carries and 6 targets over any running back tainted by Bill Belichick.",
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
